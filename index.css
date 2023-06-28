@@ -1,0 +1,27 @@
+header{ 
+    grid-area: cabe;
+     border: solid rebeccapurple 2px;
+  }
+  main{
+      grid-area: prin;
+      border: solid fuchsia 2px;
+  }
+  aside{
+  grid-area: brac;
+  border: solid green;
+  
+  }
+  footer{
+    grid-area: roda;
+      border: solid blue;
+  
+  }
+  body{
+    display: grid;
+    grid-template-areas: 
+    "cabe cabe"
+    "brac prin"
+    "roda roda";
+    grid-template-columns: 20%;
+    grid-template-rows: 25% 300px 25%;
+}
