@@ -1,27 +1,77 @@
 header{ 
+  top:0;
+  position: sticky;
     grid-area: cabe;
-     border: solid rebeccapurple 2px;
-  }
+     border: solid DarkGreen;
+     
+     background-color:Ivory ;
+    }
+    
+    .elemento_mae{
+        background-color:Snow ;
+        height: 600px;
+        display: flex; /* declarar o flexbox */
+        flex-direction: row; /* alinhamento por linha ou horizontal */
+        justify-content: space-around; /* centralizcao dos elementos */
+        align-items: baseline; /* posicionamento perpendicular */
+    }
+    
+    .elemento_filho_1{
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .elemento_filho_2{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        color: white;
+        font-size: xx-large;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .elemento_filho_3{
+        width: 200px;
+        height: 200px;
+        background-color: green;
+        color: white;
+        font-size: 100px;
+        text-align: center;
+        border-radius: 20px;
+    }
+
   main{
-      grid-area: prin;
-      border: solid fuchsia 2px;
+      grid-area: pri;
+      border: solid DarkGreen 2px;
+    
   }
   aside{
-  grid-area: brac;
+  grid-area: sec;
   border: solid green;
   
   }
   footer{
-    grid-area: roda;
-      border: solid blue;
+    grid-area: rod;
+      border: solid DarkGreen;
   
   }
   body{
+    grid-gap: 5px;
+    background-color:LightYellow ;
     display: grid;
     grid-template-areas: 
     "cabe cabe"
     "brac prin"
     "roda roda";
-    grid-template-columns: 20%;
-    grid-template-rows: 25% 300px 25%;
+    grid-template-columns: 20%
+    grid-template-rows 25% 300px 25%;
+}
+
+aside, main, footer { 
+  background-color:Snow ;
+
 }
