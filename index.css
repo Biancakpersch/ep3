@@ -1,137 +1,169 @@
-<!DOCTYPE html>
-<html lang="pt br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Bella Plantas </title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <header> 
-        <nav>
-            <img src="PLANTA.png" class="p.png" >
-            Professor querido eu preciso tirar 76 nesse trabalho para eu poder ficar com um singelo 60 na média, sei que é muito e tbm sei que meu trabalho tá horrível. Eu realmente me esforcei muito eu só sei o básico ( que como vc pode ver não é nada kk) Então estou aqui pedindo por favorzinho me dá um 76, 
-            Obs: seu que o senhor tem um coração bom :)
-           <ul>
-            <li><a href="Cuidados com sua planta.html">Cuidados com sua planta</a></li>
-            <li><a href=".html">Login</a></li>
-            <li><a href="etapas.html">Seu carrinho</a></li>
-
-        </ul>
-        </nav>
-    </header>
-    <aside>info secubdaria </aside>
-    <main>part principal</main>
-    <footer> Projeto 2ºB nem</footer>
-<main>
-   <section class="elemento_mae"> 
-    
-    <div class="elemento_filho_1">
-        <ul class="ul.flex1">
-            <img src="lirio.png" class="p1">
-            <h1 class="n1"> Lírio  (rosa) </h1>
-            <span class="s1"> $49,50</span>
-            <li><a href="saibamais.html">saiba mais </a></li>
-        </ul>
-    </div>
-    <div class="elemento_filho_1">
-        <ul class="ul.flex2">
-            <img src="rosa.png" class="p1">
-            <h1 class="n1"> Rosa  (vermelha) </h1>
-            <span class="s1"> $49,50</span>
-            <li><a href="etapas.html">saiba mais</a></li>
-
-     </ul>
-    </div>   
-
-    <div class="elemento_filho_1">
-        <ul class="ul.flex3">
-            <img src="tulipa.png" class="p1"> 
-            <h1 class="n1"> Tulipa  (lilás) </h1>
-            <span class="s1"> $49,50</span>
-            <li><a href="saibamais3.html">saiba mais </a></li>
-
-     </ul>
-    </div>  
-    <div class="elemento_filho_2">
-        <ul class="ul.flex4">
-            <img src="tulipa.png" class="p1"> 
-            <h1 class="n1"> Tulipa  (lilás) </h1>
-            <span class="s1"> $49,50</span>
-            <li><a href="saibamais3.html">saiba mais </a></li>
-
-     </ul>
-    </div>  <div class="elemento_filho_2">
-        <ul class="ul.flex5">
-            <img src="tulipa.png" class="p1"> 
-            <h1 class="n1"> Tulipa  (lilás) </h1>
-            <span class="s1"> $49,50</span>
-            <li><a href="saibamais3.html">saiba mais </a></li>
-
-     </ul>
-    </div>  <div class="elemento_filho_2">
-        <ul class="ul.flex6">
-            <img src="tulipa.png" class="p1"> 
-            <h1 class="n1"> Tulipa  (lilás) </h1>
-            <span class="s1"> $49,50</span>
-            <li><a href="saibamais3.html">saiba mais </a></li>
-
-     </ul>
-    </div>  <div class="elemento_filho_3">
-        <ul class="ul.flex7">
-            <img src="tulipa.png" class="p1"> 
-            <h1 class="n1"> Tulipa  (lilás) </h1>
-            <span class="s1"> $49,50</span>
-            <li><a href="saibamais3.html">saiba mais </a></li>
-
-     </ul>
-    </div>  <div class="elemento_filho_3">
-        <ul class="ul.flex8">
-            <img src="tulipa.png" class="p1"> 
-            <h1 class="n1"> Tulipa  (lilás) </h1>
-            <span class="s1"> $49,50</span>
-            <li><a href="saibamais3.html"> saiba mais </a></li>
-
-     </ul>
-    </div>  <div class="elemento_filho_3">
-        <ul class="ul.flex9">
-            <img src="tulipa.png" class="p1"> 
-            <h1 class="n1"> Tulipa  (lilás) </h1>
-            <span class="s1"> $49,50</span>
-            <li><a href="saibamais3.html">saiba mais </a></li>
-
-     </ul>
-    </div>  <div class="elemento_filho_4">
-        <ul class="ul.flex10">
-            <img src="tulipa.png" class="p1"> 
-            <h1 class="n1"> Tulipa  (lilás) </h1>
-            <span class="s1"> $49,50</span>
-            <li><a href="saibamais3.html"> saiba mais </a></li>
-
-     </ul>
-    </div> <div class="elemento_filho_4">
-        <ul class="ul.flex11">
-            <img src="tulipa.png" class="p1"> 
-            <h1 class="n1"> Tulipa  (lilás) </h1>
-            <span class="s1"> $49,50</span>
-            <li><a href="saibamais3.html">saiba mais </a></li>
-
-     </ul>
-    </div>  <div class="elemento_filho_4">
-        <ul class="ul.flex12">
-            <img src="tulipa.png" class="p1"> 
-            <h1 class="n1"> Tulipa  (lilás) </h1>
-            <span class="s1"> $49,50</span>
-            <li><a href="saibamais3.html">saiba mais </a></li>
-
-     </ul>
-    </div> 
-    Professor querido eu preciso tirar 76 nesse trabalho para eu poder ficar com um singelo 60 na média, sei que é muito e tbm sei que meu trabalho tá horrível. Eu realmente me esforcei muito eu só sei o básico ( que como vc pode ver não é nada kk) Então estou aqui pedindo por favorzinho me dá um 76, 
-    Obs: seu que o senhor tem um coração bom :)
-   </section>
+ body{
+background-color: LightCoral;
+  background-image: url(fundo.jpg);
+  display: grid;
   
-</main>
+  grid-template-areas: 
+      "cab cab cab"
+      "sec pri pri"
+      "rod rod rod";
+  grid-gap: 10px;
+  grid-template-columns: 20% auto auto;
+  grid-template-rows: auto 1000px auto;
+}
 
-    
-</body>
-</html> 
+header{
+  grid-area: cab;
+  top: 0;
+  position:sticky;
+  background-color: blue;
+  
+}
+
+aside{
+  grid-area: sec;
+}
+main{
+  grid-area: pri; 
+  
+}
+footer{
+  grid-area: rod;
+  height: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header, aside, main, footer{
+  background-color: LightPink
+}
+.elemento_mae{
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  padding-top: 4%;
+  
+  
+}  
+.elemento_filho_1{
+  width: 200px;
+  height: 200px;
+  background-color: MistyRose;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  display: inline;
+  border-radius: 10px;
+
+}
+
+.elemento_filho_2{
+  width: 200px;
+  height: 200px;
+  background-color: MistyRose;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  display: inline;
+  justify-content:end;
+  border-radius: 10px;
+}
+
+
+
+.elemento_filho_2{
+  width: 200px;
+  height: 200px;
+  background-color: MistyRose;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  display: inline; 
+  border-radius: 10px;
+}
+
+
+.elemento_filho_3{
+width: 200px;
+height: 200px;
+background-color: MistyRose;
+color: white;
+font-size: 30px;
+text-align: center;
+display: inline; 
+border-radius: 10px;}
+        
+.elemento_filho_4{
+  width: 200px;
+  height: 200px;
+  background-color: MistyRose;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  display: inline; 
+  
+  border-radius: 10px;}
+ 
+
+ .b1{
+ margin-right:  20px;
+
+ }
+
+.n1{
+ font-size: xx-large;
+padding-top: 10px;
+ padding-right: 30px;
+}
+
+.s1{
+
+  padding-right: 29px;
+  font-size: xx-large;
+ }
+
+nav img {
+  max-width: 10rem;
+  max-height:10rem;
+  padding: 10px;
+  padding-right: 180px;
+  padding-top: 13px;
+
+
+}
+.p1{
+  margin: 1px;
+ margin-top: 1px;
+ width: 140px;
+ height: 140px;
+ margin-right: 28px;
+}     
+
+nav li{ 
+  display: inline; 
+  margin: 15rem;
+  padding-right:150px;
+   top: 3px;
+}       
+       
+nav a{ 
+  text-decoration: none;
+  color:white;
+  font-size: x-large;
+  border: solid Crimson;
+  background:	IndianRed	
+  
+}   
+footer{
+  text-align: center;
+color: IndianRed;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ padding-top: 50px;
+}
+.cob.li{
+  text-align: center;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+      
+ 
