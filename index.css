@@ -1,5 +1,5 @@
 body{
-  background-color: LightCoral;
+background-color: LightCoral;
   background-image: url(fundo.jpg);
   display: grid;
   
@@ -7,7 +7,7 @@ body{
       "cab cab cab"
       "sec pri pri"
       "rod rod rod";
-  grid-gap: 7px;
+  grid-gap: 10px;
   grid-template-columns: 20% auto auto;
   grid-template-rows: auto 1000px auto;
 }
@@ -17,6 +17,7 @@ header{
   top: 0;
   position:sticky;
   background-color: blue;
+  
 }
 
 aside{
@@ -28,46 +29,133 @@ main{
 }
 footer{
   grid-area: rod;
-  
+  height: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header, aside, main, footer{
   background-color: LightPink
 }
 .elemento_mae{
-  background-color: aqua;
   height: 600px;
   display: flex;
   flex-direction: row;
-  justify-content:center;
-  align-items:flex-start;
+  justify-content:space-around;
+  padding-top: 4%;
   
-}
-
+  
+}  
 .elemento_filho_1{
   width: 200px;
   height: 200px;
-  background-color: blue;
+  background-color: MistyRose;
   color: white;
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
-  border-radius: 20px;
+  display: inline;
+  border-radius: 10px;
+
 }
+
 .elemento_filho_2{
   width: 200px;
   height: 200px;
-  background-color: red;
+  background-color: MistyRose;
   color: white;
-  font-size: xx-large;
+  font-size: 30px;
   text-align: center;
-  border-radius: 20px;
+  display: inline;
+  justify-content:end;
+  border-radius: 10px;
 }
-.elemento_filho_3{
+
+
+
+.elemento_filho_2{
   width: 200px;
   height: 200px;
-  background-color: green;
+  background-color: MistyRose;
   color: white;
-  font-size: 100px;
+  font-size: 30px;
   text-align: center;
-  border-radius: 20px;
+  display: inline; 
+  border-radius: 10px;
+}
+
+
+.elemento_filho_3{
+width: 200px;
+height: 200px;
+background-color: MistyRose;
+color: white;
+font-size: 30px;
+text-align: center;
+display: inline; 
+border-radius: 10px;}
+        
+.elemento_filho_4{
+  width: 200px;
+  height: 200px;
+  background-color: MistyRose;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  display: inline; 
+  border-radius: 10px;}
+ 
+
+ .b1{
+ margin-right:  20px;
+
+ }
+
+.n1{
+ font-size: xx-large;
+padding-top: 10px;
+ padding-right: 30px;
+}
+
+.s1{
+
+  padding-right: 29px;
+  font-size: xx-large;
+ }
+
+nav img {
+  max-width: 10rem;
+  max-height:10rem;
+  padding: 10px;
+  padding-right: 180px;
+  padding-top: 13px;
+
+
+}
+.p1{
+  margin: 1px;
+ margin-top: 1px;
+ width: 140px;
+ height: 140px;
+ margin-right: 28px;
+}     
+
+nav li{ 
+  display: inline; 
+  margin: 15rem;
+  padding-right:150px;
+   top: 3px;
+}       
+       
+nav a{ 
+  text-decoration: none;
+  color:white;
+  font-size: x-large;
+  border: solid Crimson;
+  background:	IndianRed	
+  
+}   
+footer{
+  text-align: center;
+color: IndianRed;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ padding-top: 50px;
 }
